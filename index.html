@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +11,30 @@
 <body>
 <header class="cabeçalho">
 <div class="container">
-<span class="cabeçalho___menu-hamburguer"></span>
-<a href="#"><img src="img/Menu.svg" alt="tres riscos"></a>
-<img src="img/Logo.svg" alt="logo da alurabooks">
+    <input type="checkbox" id="menu" class="container_botao">
+    <label for="Menu">
+<span class="cabeçalho___menu-hamburguer container_imagem"></span>
+  </label>
+  <ul class="lista-menu">
+    <li class="lista-menu__titulo">categorias</li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">programaçao</a>
+    </li>   
+     <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">front-end</a>
+    </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">infraestrutura</a>
+    </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">business</a>
+    </li>
+    <li class="lista-menu__item">
+        <a href="#" class="lista-menu__link">design & UX</a>
+    </li>
+  </ul>
+  <img src="img/Logo.svg" alt="logo da alurabooks" class="container__imagem">
+  <a href="#"><img src="img/Menu.svg" alt="tres riscos"></a>
 </div>
 <div class="container">
 <a href="#"><img src="img/Favoritos.svg" alt="Menus favoritos"></a>
